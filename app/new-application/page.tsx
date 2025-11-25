@@ -89,7 +89,7 @@ export default function NewApplication() {
   const calculateFee = (period: string) => {
     switch (period) {
       case "1-year":
-        return 25
+        return 45
       case "2-year":
         return 45
       case "3-year":
@@ -458,7 +458,7 @@ export default function NewApplication() {
                         <SelectValue placeholder="Select license period" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="1-year">1 Year - $25</SelectItem>
+                        <SelectItem value="1-year">1 Year - $45</SelectItem>
                         <SelectItem value="2-year">2 Years - $45</SelectItem>
                         <SelectItem value="3-year">3 Years - $60</SelectItem>
                       </SelectContent>
